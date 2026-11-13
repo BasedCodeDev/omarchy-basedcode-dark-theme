@@ -1,0 +1,29 @@
+{
+  "python": "3.14.8",
+  "omarchy": "4.5.0-3",
+  "ffmpeg": "ffmpeg version n9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "font_file": "JetBrainsMonoNerdFont-Bold.ttf",
+  "font_sha256": "e490660ad75e0b152c93b1604c2ea1a4ea675f1b8a3fe0d005b1998568f99f1f",
+  "template_sha256": {
+    "alacritty.toml.tpl": "02489f97737108e8a19d4c04d8251c8f3ee0bc896dbf0660b6ecaded91a61ade",
+    "btop.theme.tpl": "88b5057821b674caa8d89a27a6ac912681633b22619927486a76f6ad8a3183a0",
+    "chromium.theme.tpl": "69ce7344bb3e9b98b589e2a5afe9ed678a5829b95214e49ca89784629e06d672",
+    "claude.json.tpl": "ed4da8adb897511b349466fec31910de744e1ca5927ab11fdba3cfcbb4827e94",
+    "fcitx5-theme.conf.tpl": "99bd2afeb0c7416c497c516fd5960b934531ba381b6af2fc80ea219de40d8161",
+    "foot.ini.tpl": "14699a6fbc9ce38d82b1ca10ba5cf7a8da6b7d095cc0b5ba3d8358edc17ce763",
+    "ghostty.conf.tpl": "8f56c275227a6075f65dafc3040d2f2829b8fb413451c709a9f29f32a795e1b0",
+    "gum_env.lua.tpl": "c6b1ed256357cd0a9bb4ec9937306deb936116781967c828a67ef63069754dc8",
+    "helix.toml.tpl": "232ec1e0f753631d82f87c3b424c2e2092c2afefaf845c1566cd0ff97a1370d6",
+    "hermes.yaml.tpl": "2f8a06b5c09d72a0bd7ab3a1944071ae9d6b6330bc14695c697cb110aa5835d7",
+    "hyprland-preview-share-picker.css.tpl": "a478f96f9e6b2504aa44c61349e8fc7941a2943616fb53c61cba8e2986c6ee58",
+    "hyprland.lua.tpl": "dbe746fa74cfdc9a136806852fcb0bb66189426f8f5400b7e8324fbef3887deb",
+    "keyboard.rgb.tpl": "bdb8c6d3fe4df7498bd3e1888347383f490612ba05402d20e0546933fe58f4fd",
+    "kitty.conf.tpl": "c0beecce94323f45e0fb1638f6a38a9adba3c4b9b7d2f492c7aec10ff922df21",
+    "neovim.lua.tpl": "1d0ab56ef98748326e52b4bdb4d01018415a2bcd150fe75d42ce8ca35dc70a91",
+    "obsidian.css.tpl": "bd5813990f3dbbacd27800a0d69a512cebd28b26c98cf07c6ad3ea08a20322c2",
+    "pi.json.tpl": "1f1aaf1334c29190a3f9bf6ec345e67795b80ba2826f435f09be8dd8d5484c86",
+    "shell.toml.tpl": "38461c50c432b7332a3f59673536e8a784745bf678c58dfa3dcae7e4a91196b3",
+    "t3code.json.tpl": "c68316b0a3d59c8285d51e1420133d935a3aad87becc81e9dfc27bc5dfee0938",
+    "vscode-theme.json.tpl": "e5dbbbaeb775062ec09805f292a138a1b4bcaee3162d9840888324eed3da152b"
+  }
+}

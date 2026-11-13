@@ -1,0 +1,27 @@
+{
+  "name": "BasedCode",
+  "brand_source": "https://brand.basedcode.dev/",
+  "brand_version": "2.4",
+  "official": {
+    "carbon": "#121014",
+    "plum": "#1D0A25",
+    "deep": "#2D1540",
+    "core": "#472458",
+    "violet": "#83478F",
+    "lumen": "#B568C2",
+    "white": "#FFFFFF"
+  },
+  "supporting_text": {
+    "secondary": "#D7C9DD",
+    "quiet": "#A995B2"
+  },
+  "wallpaper": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 30,
+    "seconds": 12,
+    "seed": 240
+  },
+  "font_family": "JetBrains Mono",
+  "notes": "Official Core swatch wins over incidental CSS colours. Semantic colours in colors.toml are functional additions, not brand colours."
+}

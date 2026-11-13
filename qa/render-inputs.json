@@ -1,0 +1,14 @@
+{
+  "wordmark": false,
+  "still_size": [
+    3840,
+    2160
+  ],
+  "video_size": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "seconds": 12,
+  "seed": 240
+}
