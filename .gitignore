@@ -3,3 +3,4 @@ build/
 dist/
 qa/local/
 __pycache__/
+nvim.log

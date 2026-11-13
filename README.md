@@ -1,9 +1,9 @@
 # BasedCode for Omarchy
 
-A quiet dark theme for building things: Carbon working surfaces, layered purple panels,
-white text, clear focus indicators, and a slowly travelling purple wallpaper.
+A quiet dark theme for building things: dark subtly plum-tinted working surfaces with lilac accents,
+white text, clear focus indicators, and a solid photo-matched #1F241F wallpaper.
 
-![Text-free wallpaper preview](theme/preview.png)
+![BasedCode desktop preview: Neovim, btop, terminal and Files](preview.png)
 
 Built against **Omarchy 4.5.0-3** and [BasedCode Brand Bible v2.4](https://brand.basedcode.dev/).
 The theme preserves the user's layout, shortcuts, font sizes, monitor settings, and opacity preferences.
@@ -39,7 +39,7 @@ Adwaita dark application mode; this is not a replacement GTK widget theme.
 
 ## Motion controls
 
-The first wallpaper is a silent 12-second, 30 fps loop. The second is its matching still.
+The default wallpaper is the solid #1F241F still. The earlier silent 12-second, 30 fps animation is an optional alternative.
 Choose either in Omarchy's background picker, or use:
 
 ```sh
@@ -47,7 +47,7 @@ Choose either in Omarchy's background picker, or use:
 omarchy theme bg set ~/.config/omarchy/themes/basedcode/backgrounds/02-basedcode-still.png
 
 # Restore the animation:
-omarchy theme bg set ~/.config/omarchy/themes/basedcode/backgrounds/01-basedcode-motion.mp4
+omarchy theme bg set ~/.config/omarchy/themes/basedcode/backgrounds/03-basedcode-motion.mp4
 ```
 
 This is a still-image choice, not a frozen frame from a paused decoder. There is no custom
@@ -75,9 +75,9 @@ If that was the previously active theme, rollback restores that package before s
 - Secondary text comes from the guide's `#D7C9DD` and `#A995B2` tokens.
 - Terminal errors, warnings, successes, syntax and diffs use restrained functional colours.
   These additions are documented exceptions, not new BasedCode brand colours.
-- Carbon remains the coding surface. Deep is used for menus and popups; Core for selections.
-- Solid Lumen borders identify keyboard focus. White selected text avoids low-contrast purple-on-purple labels.
-- The user's transparent bar remains transparent; an opaque bar uses Carbon.
+- Working surfaces use `#19181B`, panels `#201E23` and selections `#472458`.
+- Solid lilac `#D7A4E2` borders identify keyboard focus. White selected text avoids low-contrast purple-on-purple labels.
+- The user's transparent bar remains transparent; an opaque bar uses the working-surface colour.
 - Omarchy generates Foot, Ghostty, Kitty, Alacritty, Aether/Neovim, Helix, btop and other
   integrations from the palette. Only supported, installed applications are actually refreshed.
 - The colour-only `vscode-theme.json` corrects low-contrast secondary buttons and focus indicators
@@ -137,3 +137,14 @@ records, and raw workstation measurements under `qa/local/` are excluded from bo
 Original implementation code and unbranded procedural artwork are MIT-licensed; see `LICENSE`.
 BasedCode names and wordmarks remain the rights of their owner. The code licence grants no
 trademark rights or implied endorsement. See `BRAND-RIGHTS.md` and `THIRD-PARTY-NOTICES.md`.
+
+The current exact-match wallpaper is `backgrounds/02-basedcode-still.png`. Select this
+PNG for exact RGB; the earlier animation remains an optional alternative.
+
+## Desktop preview
+
+The preview is a real 2560×1440 capture with Neovim and its file tree, btop, a
+terminal directory listing, and GNOME Files. Both variants use the same layout
+and sample files. btop shows loopback networking instead of a private network
+address, with the process list hidden. Fonts and monitor scaling are unchanged.
+Files uses the native dark GTK appearance with Yaru-purple icons.

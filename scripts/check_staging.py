@@ -21,9 +21,9 @@ with tempfile.TemporaryDirectory(prefix='basedcode-staging-') as tmp:
         return result.stderr
     stderr=select('basedcode')
     current=isolated/'.local/state/omarchy/current'
-    assert (current/'background').resolve().name=='01-basedcode-motion.mp4'
+    assert (current/'background').resolve().name=='02-basedcode-still.png'
     assert (current/'theme/vscode-theme.json').read_bytes()==(target/'vscode-theme.json').read_bytes()
-    assert tomllib.loads((current/'theme/shell.toml').read_text())['bar']['active']=='#B568C2'
+    assert tomllib.loads((current/'theme/shell.toml').read_text())['bar']['active']==tomllib.loads((ROOT/'theme/colors.toml').read_text())['accent']
     assert (current/'theme/neovim.lua').exists()
     assert (current/'theme/foot.ini').exists()
     (current/'background').unlink()

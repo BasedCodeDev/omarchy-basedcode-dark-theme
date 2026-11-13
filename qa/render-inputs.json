@@ -4,10 +4,7 @@
     3840,
     2160
   ],
-  "video_size": [
-    3840,
-    2160
-  ],
+  "video_size": null,
   "fps": 30,
   "seconds": 12,
   "seed": 240

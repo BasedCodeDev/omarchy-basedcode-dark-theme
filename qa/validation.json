@@ -37,155 +37,155 @@
     {
       "name": "code foreground",
       "foreground": "#FFFFFF",
-      "background": "#121014",
-      "ratio": 18.92,
+      "background": "#19181B",
+      "ratio": 17.68,
       "minimum": 4.5
     },
     {
       "name": "code light_foreground",
       "foreground": "#D7C9DD",
-      "background": "#121014",
-      "ratio": 11.97,
+      "background": "#19181B",
+      "ratio": 11.19,
       "minimum": 4.5
     },
     {
       "name": "code muted",
-      "foreground": "#A995B2",
-      "background": "#121014",
-      "ratio": 6.87,
+      "foreground": "#C1A7CE",
+      "background": "#19181B",
+      "ratio": 8.15,
       "minimum": 4.5
     },
     {
       "name": "code dark_foreground",
-      "foreground": "#A995B2",
-      "background": "#121014",
-      "ratio": 6.87,
+      "foreground": "#C1A7CE",
+      "background": "#19181B",
+      "ratio": 8.15,
       "minimum": 4.5
     },
     {
       "name": "code red",
-      "foreground": "#DF929E",
-      "background": "#121014",
-      "ratio": 7.88,
+      "foreground": "#E69BA6",
+      "background": "#19181B",
+      "ratio": 8.09,
       "minimum": 4.5
     },
     {
       "name": "code green",
       "foreground": "#A5BEA2",
-      "background": "#121014",
-      "ratio": 9.45,
+      "background": "#19181B",
+      "ratio": 8.83,
       "minimum": 4.5
     },
     {
       "name": "code yellow",
       "foreground": "#D8BF8C",
-      "background": "#121014",
-      "ratio": 10.59,
+      "background": "#19181B",
+      "ratio": 9.89,
       "minimum": 4.5
     },
     {
       "name": "code blue",
       "foreground": "#ADB4D8",
-      "background": "#121014",
-      "ratio": 9.28,
+      "background": "#19181B",
+      "ratio": 8.67,
       "minimum": 4.5
     },
     {
       "name": "code cyan",
       "foreground": "#9DBFCA",
-      "background": "#121014",
-      "ratio": 9.68,
+      "background": "#19181B",
+      "ratio": 9.04,
       "minimum": 4.5
     },
     {
       "name": "code magenta",
-      "foreground": "#C789D2",
-      "background": "#121014",
-      "ratio": 7.15,
+      "foreground": "#D19BDA",
+      "background": "#19181B",
+      "ratio": 7.92,
       "minimum": 4.5
     },
     {
       "name": "code orange",
       "foreground": "#DCA78C",
-      "background": "#121014",
-      "ratio": 8.96,
+      "background": "#19181B",
+      "ratio": 8.38,
       "minimum": 4.5
     },
     {
       "name": "code brown",
-      "foreground": "#C0A18B",
-      "background": "#121014",
-      "ratio": 7.85,
+      "foreground": "#C9AA94",
+      "background": "#19181B",
+      "ratio": 8.13,
       "minimum": 4.5
     },
     {
       "name": "code bright_red",
       "foreground": "#EDB0B9",
-      "background": "#121014",
-      "ratio": 10.37,
+      "background": "#19181B",
+      "ratio": 9.69,
       "minimum": 4.5
     },
     {
       "name": "code bright_green",
       "foreground": "#C1D5B8",
-      "background": "#121014",
-      "ratio": 12.14,
+      "background": "#19181B",
+      "ratio": 11.35,
       "minimum": 4.5
     },
     {
       "name": "code bright_yellow",
       "foreground": "#E9D4AC",
-      "background": "#121014",
-      "ratio": 13.04,
+      "background": "#19181B",
+      "ratio": 12.19,
       "minimum": 4.5
     },
     {
       "name": "code bright_blue",
       "foreground": "#CCD0EB",
-      "background": "#121014",
-      "ratio": 12.42,
+      "background": "#19181B",
+      "ratio": 11.61,
       "minimum": 4.5
     },
     {
       "name": "code bright_cyan",
       "foreground": "#BED8DE",
-      "background": "#121014",
-      "ratio": 12.67,
+      "background": "#19181B",
+      "ratio": 11.84,
       "minimum": 4.5
     },
     {
       "name": "code bright_magenta",
       "foreground": "#DEB0E5",
-      "background": "#121014",
-      "ratio": 10.31,
+      "background": "#19181B",
+      "ratio": 9.64,
       "minimum": 4.5
     },
     {
       "name": "background text",
       "foreground": "#FFFFFF",
-      "background": "#121014",
-      "ratio": 18.92,
+      "background": "#19181B",
+      "ratio": 17.68,
       "minimum": 4.5
     },
     {
       "name": "background focus",
-      "foreground": "#B568C2",
-      "background": "#121014",
-      "ratio": 5.16,
+      "foreground": "#D7A4E2",
+      "background": "#19181B",
+      "ratio": 8.67,
       "minimum": 3
     },
     {
       "name": "lighter_background text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "lighter_background focus",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
@@ -197,135 +197,135 @@
     },
     {
       "name": "selection focus",
-      "foreground": "#B568C2",
+      "foreground": "#D7A4E2",
       "background": "#472458",
-      "ratio": 3.45,
+      "ratio": 6.2,
       "minimum": 3
     },
     {
       "name": "panel secondary",
       "foreground": "#D7C9DD",
-      "background": "#2D1540",
-      "ratio": 10.28,
+      "background": "#201E23",
+      "ratio": 10.45,
       "minimum": 4.5
     },
     {
       "name": "panel muted",
-      "foreground": "#A995B2",
-      "background": "#2D1540",
-      "ratio": 5.9,
+      "foreground": "#C1A7CE",
+      "background": "#201E23",
+      "ratio": 7.62,
       "minimum": 4.5
     },
     {
       "name": "lock placeholder",
-      "foreground": "#A995B2",
-      "background": "#121014",
-      "ratio": 6.87,
+      "foreground": "#C1A7CE",
+      "background": "#19181B",
+      "ratio": 8.15,
       "minimum": 4.5
     },
     {
       "name": "launcher text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "launcher border",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
       "name": "menu text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "menu border",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
       "name": "notifications text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "notifications border",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
       "name": "popups text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "popups border",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
       "name": "tooltip text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "tooltip border",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
       "name": "polkit text",
       "foreground": "#FFFFFF",
-      "background": "#2D1540",
-      "ratio": 16.24,
+      "background": "#201E23",
+      "ratio": 16.52,
       "minimum": 4.5
     },
     {
       "name": "polkit border",
-      "foreground": "#B568C2",
-      "background": "#2D1540",
-      "ratio": 4.43,
+      "foreground": "#D7A4E2",
+      "background": "#201E23",
+      "ratio": 8.1,
       "minimum": 3
     },
     {
       "name": "lock text",
       "foreground": "#FFFFFF",
-      "background": "#121014",
-      "ratio": 18.92,
+      "background": "#19181B",
+      "ratio": 17.68,
       "minimum": 4.5
     },
     {
       "name": "lock border",
-      "foreground": "#B568C2",
-      "background": "#121014",
-      "ratio": 5.16,
+      "foreground": "#D7A4E2",
+      "background": "#19181B",
+      "ratio": 8.67,
       "minimum": 3
     },
     {
       "name": "primary button",
-      "foreground": "#121014",
-      "background": "#B568C2",
-      "ratio": 5.16,
+      "foreground": "#19181B",
+      "background": "#D7A4E2",
+      "ratio": 8.67,
       "minimum": 4.5
     },
     {
@@ -365,30 +365,30 @@
     },
     {
       "name": "editor keyboard focus",
-      "foreground": "#B568C2",
-      "background": "#121014",
-      "ratio": 5.16,
+      "foreground": "#D7A4E2",
+      "background": "#19181B",
+      "ratio": 8.67,
       "minimum": 3
     },
     {
       "name": "diffEditor.insertedTextBackground",
       "foreground": "#FFFFFF",
-      "background": "#242626",
-      "ratio": 15.21,
+      "background": "#2b2d2c",
+      "ratio": 13.87,
       "minimum": 4.5
     },
     {
       "name": "diffEditor.removedTextBackground",
       "foreground": "#FFFFFF",
-      "background": "#2c2025",
-      "ratio": 15.67,
+      "background": "#33282c",
+      "ratio": 14.18,
       "minimum": 4.5
     },
     {
       "name": "editor.findMatchBackground",
       "foreground": "#FFFFFF",
-      "background": "#443c32",
-      "ratio": 10.83,
+      "background": "#494237",
+      "ratio": 9.92,
       "minimum": 4.5
     }
   ],
@@ -422,7 +422,7 @@
         "start_time": "0.000000",
         "duration_ts": 184320,
         "duration": "12.000000",
-        "bit_rate": "7107993",
+        "bit_rate": "1717874",
         "bits_per_raw_sample": "8",
         "nb_frames": "360",
         "extradata_size": 46,
@@ -455,7 +455,7 @@
       }
     ],
     "format": {
-      "filename": "theme/backgrounds/01-basedcode-motion.mp4",
+      "filename": "theme/backgrounds/03-basedcode-motion.mp4",
       "nb_streams": 1,
       "nb_programs": 0,
       "nb_stream_groups": 0,
@@ -463,8 +463,8 @@
       "format_long_name": "QuickTime / MOV",
       "start_time": "0.000000",
       "duration": "12.000000",
-      "size": "10664448",
-      "bit_rate": "7109632",
+      "size": "2582017",
+      "bit_rate": "1721344",
       "probe_score": 100,
       "tags": {
         "major_brand": "isom",

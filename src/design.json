@@ -20,8 +20,9 @@
     "height": 2160,
     "fps": 30,
     "seconds": 12,
-    "seed": 240
+    "seed": 240,
+    "solid_color": "#1F241F"
   },
   "font_family": "JetBrains Mono",
-  "notes": "Official Core swatch wins over incidental CSS colours. Semantic colours in colors.toml are functional additions, not brand colours."
+  "notes": "Official Core swatch wins over incidental CSS colours. Semantic colours in colors.toml are functional additions, not brand colours. Grey wallpaper revision uses #3D423E as its base with subdued grey/plum ribbons; complementary working surfaces use muted plum-grey #302B34. Correction from supplied 69x9 border crop: dominant exact grey #1F241F (595/621 pixels). Wallpaper uses this base with restrained highlights; complementary working surface #27232B. Authoritative top-bar/index.html CSS: info-bar background #111111. Wallpaper corrected to neutral #0F0F0F (slightly darker), overriding screenshot-derived values. Working surfaces #19181B. User explicitly chose the visible photo over CSS: sample #1F241F, wallpaper base #1D221D (minus two RGB levels). Working surfaces unchanged. Exact photo match: solid #1F241F wallpaper, no shading or dithering; still selected to preserve exact RGB."
 }

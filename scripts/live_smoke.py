@@ -44,7 +44,7 @@ finally:
 run(['omarchy','theme','set','vantablack'],env=env,timeout=60)
 assert (pathlib.Path.home()/'.local/state/omarchy/current/theme.name').read_text().strip()=='vantablack'
 run(['omarchy','theme','set','basedcode'],env=env,timeout=60)
-run(['omarchy','theme','bg','set',str(pathlib.Path.home()/'.config/omarchy/themes/basedcode/backgrounds/01-basedcode-motion.mp4')],env=env)
+run(['omarchy','theme','bg','set',str(pathlib.Path.home()/'.config/omarchy/themes/basedcode/backgrounds/03-basedcode-motion.mp4')],env=env)
 time.sleep(2)
 errors=run(['hyprctl','configerrors']).stdout.strip(); assert not errors,errors
 report['live_theme_round_trip']='pass'

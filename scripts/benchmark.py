@@ -22,7 +22,7 @@ all_results={}
 def still_our_theme():
     return (pathlib.Path.home()/'.local/state/omarchy/current/theme.name').read_text().strip()=='basedcode'
 try:
-    for label,filename in [('still','02-basedcode-still.png'),('motion','01-basedcode-motion.mp4')]:
+    for label,filename in [('still','02-basedcode-still.png'),('motion','03-basedcode-motion.mp4')]:
         subprocess.run(['omarchy','theme','bg','set',str(media/filename)],check=True)
         time.sleep(5)
         previous=proc_sample(); start=time.monotonic(); samples=[]
@@ -38,5 +38,5 @@ try:
             'mean_process_rss_mib':statistics.mean(x['process_rss_mib'] for x in samples)}
         (OUT/'benchmark.json').write_text(json.dumps(all_results,indent=2)+'\n')
 finally:
-    if still_our_theme(): subprocess.run(['omarchy','theme','bg','set',str(media/'01-basedcode-motion.mp4')],check=False)
+    if still_our_theme(): subprocess.run(['omarchy','theme','bg','set',str(media/'03-basedcode-motion.mp4')],check=False)
 print('Observational benchmark complete; animated background restored',flush=True)

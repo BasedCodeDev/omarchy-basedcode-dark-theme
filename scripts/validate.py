@@ -71,7 +71,7 @@ def main():
         destination=ROOT/'build/generated'
         if destination.exists(): shutil.rmtree(destination)
         shutil.copytree(stage,destination)
-    media=ROOT/'theme/backgrounds/01-basedcode-motion.mp4'
+    media=ROOT/'theme/backgrounds/03-basedcode-motion.mp4'
     video=None
     if media.exists():
         video=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(media)],text=True))
