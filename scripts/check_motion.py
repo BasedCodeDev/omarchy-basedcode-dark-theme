@@ -13,14 +13,14 @@ assert period<=1,period
 if render.CFG.get('solid_color'):
     from PIL import Image
     expected=tuple(int(render.CFG['solid_color'][i:i+2],16) for i in (1,3,5))
-    still=Image.open(ROOT/'theme/backgrounds/02-basedcode-still.png').convert('RGB')
+    still=Image.open(ROOT/'theme/backgrounds/02-basedcode-dark-still.png').convert('RGB')
     assert still.getextrema()==tuple((v,v) for v in expected)
     assert change==0 and period==0
     (ROOT/'qa/motion-validation.json').write_text(json.dumps({'profile':'solid','rgb':expected,'periodic_max_channel_delta':period,'two_second_mean_channel_delta':change,'legacy_animation':'retained as optional alternative'},indent=2)+'\n')
     print('Exact solid wallpaper verified; legacy animation remains optional.')
     raise SystemExit(0)
 assert change>.1,change  # Subdued grey ribbons have less luminance change than the purple artwork.
-media=ROOT/'theme/backgrounds/03-basedcode-motion.mp4'
+media=ROOT/'theme/backgrounds/03-basedcode-dark-motion.mp4'
 raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(media),'-vf',"select='eq(n,0)+eq(n,1)+eq(n,358)+eq(n,359)',scale=640:360",'-fps_mode','passthrough','-f','rawvideo','-pix_fmt','rgb24','pipe:1'])
 frames=np.frombuffer(raw,dtype=np.uint8).reshape(4,360,640,3).astype(np.float32)
 seam=float(np.abs(frames[-1]-frames[0]).mean())

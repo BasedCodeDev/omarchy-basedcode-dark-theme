@@ -1,9 +1,9 @@
-# BasedCode for Omarchy
+# Basedcode Dark for Omarchy
 
 A quiet dark theme for building things: dark subtly plum-tinted working surfaces with lilac accents,
 white text, clear focus indicators, and a solid photo-matched #1F241F wallpaper.
 
-![BasedCode desktop preview: Neovim, btop, terminal and Files](preview.png)
+![Basedcode Dark desktop preview: Neovim, btop, terminal and Files](preview.png)
 
 Built against **Omarchy 4.5.0-3** and [BasedCode Brand Bible v2.4](https://brand.basedcode.dev/).
 The theme preserves the user's layout, shortcuts, font sizes, monitor settings, and opacity preferences.
@@ -11,10 +11,10 @@ The theme preserves the user's layout, shortcuts, font sizes, monitor settings, 
 ## Install from GitHub
 
 ```sh
-omarchy theme install https://github.com/BasedCodeDev/omarchy-basedcode-theme
+omarchy theme install https://github.com/BasedCodeDev/omarchy-basedcode-dark-theme
 ```
 
-Omarchy installs and activates the theme as `basedcode`. Its installer replaces an existing
+Omarchy installs and activates the theme as `basedcode-dark`. Its installer replaces an existing
 theme with that name, so back up any local changes first. To use the bundled backup-aware
 installer instead, clone this repository and follow the source installation below.
 
@@ -26,10 +26,10 @@ Run as your ordinary desktop user, not root:
 python scripts/install.py --apply
 ```
 
-This copies `theme/` into `~/.config/omarchy/themes/basedcode`, records the previous theme,
-saves the selected wallpaper, and activates BasedCode. If BasedCode already exists, it is
+This copies `theme/` into `~/.config/omarchy/themes/basedcode-dark`, records the previous theme,
+saves the selected wallpaper, and activates Basedcode Dark. If Basedcode Dark already exists, it is
 moved into the timestamped backup first. Backups live in
-`~/.local/state/omarchy/basedcode-backups/`; the installer prints the exact location.
+`~/.local/state/omarchy/basedcode-dark-backups/`; the installer prints the exact location.
 The installer suppresses theme mirroring to other machines for this invocation.
 
 Dependencies for using the theme: Omarchy's shell and native theme generator, video-wallpaper
@@ -44,10 +44,10 @@ Choose either in Omarchy's background picker, or use:
 
 ```sh
 # Stop wallpaper motion by selecting the still:
-omarchy theme bg set ~/.config/omarchy/themes/basedcode/backgrounds/02-basedcode-still.png
+omarchy theme bg set ~/.config/omarchy/themes/basedcode-dark/backgrounds/02-basedcode-dark-still.png
 
 # Restore the animation:
-omarchy theme bg set ~/.config/omarchy/themes/basedcode/backgrounds/03-basedcode-motion.mp4
+omarchy theme bg set ~/.config/omarchy/themes/basedcode-dark/backgrounds/03-basedcode-dark-motion.mp4
 ```
 
 This is a still-image choice, not a frozen frame from a paused decoder. There is no custom
@@ -60,12 +60,12 @@ Use the normal theme picker or `omarchy theme set vantablack`. To restore the ex
 wallpaper and previous desktop appearance settings as well:
 
 ```sh
-python scripts/rollback.py ~/.local/state/omarchy/basedcode-backups/TIMESTAMP
+python scripts/rollback.py ~/.local/state/omarchy/basedcode-dark-backups/TIMESTAMP
 ```
 
 Replace `TIMESTAMP` with the installer's printed backup directory. This restores the prior
-active theme and wallpaper; it leaves the newly installed BasedCode package available.
-A pre-existing BasedCode directory is preserved as `previous-basedcode` in the backup.
+active theme and wallpaper; it leaves the newly installed Basedcode Dark package available.
+A pre-existing Basedcode Dark directory is preserved as `previous-basedcode-dark` in the backup.
 If that was the previously active theme, rollback restores that package before selecting it.
 
 ## Design and application coverage
@@ -118,7 +118,7 @@ no external photographs or generated raster dependencies. Font files are not red
 ## Distribution
 
 `scripts/package.py` produces a runtime archive and a separate source archive in `dist/`,
-plus SHA-256 checksums. The runtime archive has `basedcode/colors.toml` at its root folder,
+plus SHA-256 checksums. The runtime archive has `basedcode-dark/colors.toml` at its root folder,
 so it can be extracted into `~/.config/omarchy/themes/` on another compatible installation.
 Do not overwrite an existing theme directory without backing it up.
 
@@ -135,10 +135,10 @@ records, and raw workstation measurements under `qa/local/` are excluded from bo
 ## Rights and attribution
 
 Original implementation code and unbranded procedural artwork are MIT-licensed; see `LICENSE`.
-BasedCode names and wordmarks remain the rights of their owner. The code licence grants no
+Basedcode Dark names and wordmarks remain the rights of their owner. The code licence grants no
 trademark rights or implied endorsement. See `BRAND-RIGHTS.md` and `THIRD-PARTY-NOTICES.md`.
 
-The current exact-match wallpaper is `backgrounds/02-basedcode-still.png`. Select this
+The current exact-match wallpaper is `backgrounds/02-basedcode-dark-still.png`. Select this
 PNG for exact RGB; the earlier animation remains an optional alternative.
 
 ## Desktop preview
@@ -148,3 +148,20 @@ terminal directory listing, and GNOME Files. Both variants use the same layout
 and sample files. btop shows loopback networking instead of a private network
 address, with the process list hidden. Fonts and monitor scaling are unchanged.
 Files uses the native dark GTK appearance with Yaru-purple icons.
+
+## Theme naming migration
+
+The purple variant previously called **BasedCode Light** is now **Basedcode**
+(`basedcode`, `BasedCodeDev/omarchy-basedcode-theme`). The grey variant previously
+called **BasedCode** is now **Basedcode Dark** (`basedcode-dark`,
+`BasedCodeDev/omarchy-basedcode-dark-theme`). Appearance and screenshots are unchanged.
+
+The old unsuffixed GitHub URL now identifies the purple variant. Existing dark-theme
+users must update their remote to `https://github.com/BasedCodeDev/omarchy-basedcode-dark-theme.git`.
+Install the renamed dark variant before installing the purple variant to avoid replacing
+an existing `basedcode` installation. Back up local changes and custom wallpapers first.
+Use the new URLs explicitly: redirects do not change the theme slug derived from an old URL.
+
+Historical rollback records remain untouched. The updated rollback script maps pre-rename
+`basedcode` records to `basedcode-dark` and `basedcode-light` records to `basedcode`.
+New records include versioned identity metadata and use the current names.

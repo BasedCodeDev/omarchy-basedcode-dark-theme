@@ -1,4 +1,4 @@
-# BasedCode design
+# Basedcode Dark design
 
 The dark theme pairs the approved solid #1F241F wallpaper with subtly plum-tinted
 working surfaces. The wallpaper colour was sampled from the supplied scene image;

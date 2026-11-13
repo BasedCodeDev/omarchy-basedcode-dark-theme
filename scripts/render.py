@@ -41,7 +41,7 @@ def frame(t, width=3840, height=2160):
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--video',action='store_true'); ap.add_argument('--width',type=int,default=3840); ap.add_argument('--height',type=int,default=2160)
     args=ap.parse_args(); out=ROOT/'theme/backgrounds'; out.mkdir(exist_ok=True)
-    frame(0).save(out/'02-basedcode-still.png')
+    frame(0).save(out/'02-basedcode-dark-still.png')
     qa=ROOT/'qa'; qa.mkdir(exist_ok=True)
     frame(0,1280,720).save(qa/'wallpaper-review.png')
     frames=[frame(t,640,360) for t in (0,2,4,6,8,10)]
@@ -52,7 +52,7 @@ def main():
     portrait=master.crop((1312,0,2528,2160)).resize((608,1080),Image.Resampling.LANCZOS)
     portrait.save(qa/'portrait-review.png')
     if args.video:
-        cmd=['ffmpeg','-hide_banner','-loglevel','warning','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{args.width}x{args.height}','-r',str(CFG['fps']),'-i','pipe:0','-an','-c:v','libx264','-preset','fast','-crf','19','-pix_fmt','yuv420p','-movflags','+faststart','-threads','4',str(out/'03-basedcode-motion.mp4')]
+        cmd=['ffmpeg','-hide_banner','-loglevel','warning','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{args.width}x{args.height}','-r',str(CFG['fps']),'-i','pipe:0','-an','-c:v','libx264','-preset','fast','-crf','19','-pix_fmt','yuv420p','-movflags','+faststart','-threads','4',str(out/'03-basedcode-dark-motion.mp4')]
         proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
         try:
             for i in range(CFG['fps']*CFG['seconds']):

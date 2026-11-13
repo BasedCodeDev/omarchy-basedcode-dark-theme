@@ -27,7 +27,7 @@ def main():
     check('panel secondary',c['light_foreground'],c['lighter_background'])
     check('panel muted',c['muted'],c['lighter_background'])
     check('lock placeholder',c['muted'],c['background'])
-    with tempfile.TemporaryDirectory(prefix='basedcode-validation-') as temp:
+    with tempfile.TemporaryDirectory(prefix='basedcode-dark-validation-') as temp:
         isolated=pathlib.Path(temp)
         stage=isolated/'.local/state/omarchy/current/next-theme'
         stage.mkdir(parents=True)
@@ -71,7 +71,7 @@ def main():
         destination=ROOT/'build/generated'
         if destination.exists(): shutil.rmtree(destination)
         shutil.copytree(stage,destination)
-    media=ROOT/'theme/backgrounds/03-basedcode-motion.mp4'
+    media=ROOT/'theme/backgrounds/03-basedcode-dark-motion.mp4'
     video=None
     if media.exists():
         video=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(media)],text=True))
